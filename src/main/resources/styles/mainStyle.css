@@ -1,3 +1,22 @@
+.button-init{
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-font-size: 25;
+    -fx-text-fill: #512da8;
+    -fx-font-weight: bold;
+}
+
+.button-init:hover {
+    -fx-text-fill: #140499;
+    -fx-font-size: 35;
+}
+
+.button-init:pressed {
+    -fx-text-fill: #2F2B43;
+}
+
 .button1
 {
     -fx-background-color : #393351;

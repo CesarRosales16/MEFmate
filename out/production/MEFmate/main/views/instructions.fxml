@@ -2,6 +2,7 @@
 
 <?import java.lang.*?>
 <?import javafx.geometry.*?>
+<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
@@ -138,12 +139,22 @@
                                         <Insets bottom="15.0" />
                                     </VBox.margin>
                                 </Text>
-                                <Button fx:id="btnInicio" mnemonicParsing="false" onAction="#iniciar" styleClass="normal-button" stylesheets="@../resources/styles/mainStyle.css" text="INICIAR" textFill="WHITE">
-                                    <font>
-                                        <Font size="20.0" />
-                                    </font>
-                                </Button>
                             </children>
+                            <VBox alignment="CENTER" maxHeight="150.0" minHeight="150.0" prefHeight="150.0">
+                                <children>
+                                    <Button fx:id="btnIniciar" mnemonicParsing="false" onAction="#iniciar" styleClass="button-init" stylesheets="@../resources/styles/mainStyle.css" text="Iniciar" textFill="WHITE">
+                                        <font>
+                                            <Font size="20.0" />
+                                        </font>
+                                        <VBox.margin>
+                                            <Insets bottom="15.0" />
+                                        </VBox.margin>
+                              <cursor>
+                                 <Cursor fx:constant="HAND" />
+                              </cursor>
+                                    </Button>
+                                </children>
+                            </VBox>
                         </VBox>
                     </children></HBox>
             </center></BorderPane>
