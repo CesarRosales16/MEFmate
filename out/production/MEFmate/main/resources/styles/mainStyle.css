@@ -69,13 +69,14 @@
 {
     -fx-background-color : #3949ab ;
 }
-.button5:pressed
+
+.button5:pressed:hover
 {
     -fx-background-color : #243389;
 }
 
 .button5-selected {
-    -fx-background-color: #243389;
+    -fx-background-color: #0d036c;
     -fx-background-radius :  0 0 0 0;
 }
 

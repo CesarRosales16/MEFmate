@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #131022;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controllers.FinishController">
+    <center>
+        <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <top>
+                <HBox alignment="CENTER_RIGHT" BorderPane.alignment="CENTER">
+                    <children>
+                        <HBox alignment="CENTER_LEFT" maxWidth="1000.0" minWidth="700.0" prefWidth="700.0">
+                            <children>
+                                <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="91.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../resources/img/MEFmate-icon.png" />
+                                    </image>
+                                </ImageView>
+                                <Text fill="#fff600" strokeType="OUTSIDE" strokeWidth="0.0" text="MEF">
+                                    <font>
+                                        <Font name="System Bold" size="26.0" />
+                                    </font>
+                                    <HBox.margin>
+                                        <Insets left="10.0" />
+                                    </HBox.margin>
+                                </Text>
+                                <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="mate">
+                                    <font>
+                                        <Font size="24.0" />
+                                    </font>
+                                </Text>
+                            </children>
+                            <HBox.margin>
+                                <Insets left="25.0" />
+                            </HBox.margin>
+                        </HBox>
+                        <Pane prefHeight="60.0" prefWidth="300.0" style="-fx-background-radius: 20 0 20 0;" styleClass="linear-grad" stylesheets="@../resources/styles/mainStyle.css">
+                            <children>
+                                <HBox alignment="CENTER" maxWidth="350.0" minWidth="350.0" prefHeight="60.0" prefWidth="350.0">
+                                    <children>
+                                        <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="91.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../resources/img/start.png" />
+                                            </image>
+                                            <HBox.margin>
+                                                <Insets right="15.0" />
+                                            </HBox.margin>
+                                        </ImageView>
+                                        <Text fx:id="txtStep" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="FINAL">
+                                            <font>
+                                                <Font size="20.0" />
+                                            </font></Text>
+                                    </children>
+                                </HBox>
+                            </children></Pane>
+                    </children></HBox>
+            </top>
+            <bottom>
+                <HBox alignment="CENTER" BorderPane.alignment="CENTER">
+                    <children>
+                        <Button fx:id="btnFooterBackAll" disable="true" maxHeight="32.0" maxWidth="32.0" minHeight="32.0" minWidth="32.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="32.0" stylesheets="@../resources/styles/mainStyle.css">
+                            <styleClass>
+                                <String fx:value="button3" />
+                                <String fx:value="button-back-all" />
+                            </styleClass></Button>
+                        <Button fx:id="btnFooterBack" alignment="CENTER" contentDisplay="CENTER" disable="true" layoutX="257.0" layoutY="10.0" maxHeight="32.0" maxWidth="32.0" minHeight="32.0" minWidth="32.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="32.0" stylesheets="@../resources/styles/mainStyle.css">
+                            <HBox.margin>
+                                <Insets />
+                            </HBox.margin>
+                            <styleClass>
+                                <String fx:value="button3" />
+                                <String fx:value="button-back" />
+                            </styleClass></Button>
+                        <Button fx:id="btnFooterHome" disable="true" layoutX="273.0" layoutY="10.0" maxHeight="32.0" maxWidth="32.0" minHeight="32.0" minWidth="32.0" mnemonicParsing="false" onAction="#backHome" prefHeight="32.0" prefWidth="32.0" stylesheets="@../resources/styles/mainStyle.css">
+                            <styleClass>
+                                <String fx:value="button3" />
+                                <String fx:value="button-home" />
+                            </styleClass></Button>
+                        <Button fx:id="btnFooterNext" disable="true" layoutX="225.0" layoutY="10.0" maxHeight="32.0" maxWidth="32.0" minHeight="32.0" minWidth="32.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="32.0" stylesheets="@../resources/styles/mainStyle.css">
+                            <styleClass>
+                                <String fx:value="button3" />
+                                <String fx:value="button-next" />
+                            </styleClass></Button>
+                        <Button fx:id="btnFooterNextAll" disable="true" layoutX="273.0" layoutY="10.0" maxHeight="32.0" maxWidth="32.0" minHeight="32.0" minWidth="32.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="32.0" stylesheets="@../resources/styles/mainStyle.css">
+                            <styleClass>
+                                <String fx:value="button3" />
+                                <String fx:value="button-next-all" />
+                            </styleClass></Button>
+                    </children></HBox>
+            </bottom>
+            <center>
+                <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 10;" BorderPane.alignment="CENTER">
+                    <BorderPane.margin>
+                        <Insets left="15.0" right="15.0" />
+                    </BorderPane.margin>
+                    <children>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                            <children>
+                                <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                                    <children>
+                                        <Text fill="#fff600" strokeType="OUTSIDE" strokeWidth="0.0" text="MEF">
+                                            <font>
+                                                <Font name="System Bold" size="50.0" />
+                                            </font>
+                                        </Text>
+                                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="mate">
+                                            <font>
+                                                <Font size="40.0" />
+                                            </font>
+                                        </Text>
+                                    </children>
+                                </HBox>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="¡Bienvenido a MEFmate!">
+                                    <font>
+                                        <Font size="25.0" />
+                                    </font>
+                                    <VBox.margin>
+                                        <Insets bottom="15.0" />
+                                    </VBox.margin>
+                                </Text>
+                                <Text lineSpacing="2.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MEFmate es el software número uno en el mercado para aprender sobre el Método de los Elementos Finitos en 3D dimensiones." textAlignment="CENTER" wrappingWidth="800.0">
+                                    <font>
+                                        <Font size="20.0" />
+                                    </font>
+                                    <VBox.margin>
+                                        <Insets bottom="10.0" />
+                                    </VBox.margin>
+                                </Text>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Unete a nosotros y deja MEFmate te acompañe en esta gran aventura ¡Vamos a ello!" textAlignment="CENTER" wrappingWidth="800.0">
+                                    <font>
+                                        <Font size="20.0" />
+                                    </font>
+                                    <VBox.margin>
+                                        <Insets bottom="50.0" />
+                                    </VBox.margin>
+                                </Text>
+                                <Button fx:id="btnInstructions" mnemonicParsing="false" onAction="#backHome" styleClass="normal-button" stylesheets="@../resources/styles/mainStyle.css" text="REGRESAR AL INICIO" textFill="WHITE">
+                                    <font>
+                                        <Font size="20.0" />
+                                    </font>
+                                </Button>
+                            </children>
+                        </VBox>
+                    </children></HBox>
+            </center></BorderPane>
+    </center>
+</BorderPane>

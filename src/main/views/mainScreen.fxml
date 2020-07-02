@@ -9,12 +9,12 @@
 
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #131022;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controllers.MainScreenController">
     <left>
-        <ScrollPane fitToWidth="true" prefHeight="400.0" prefWidth="85.0" style="-fx-background-color: #243389; -fx-background-radius: 0 10 10 0;" styleClass="scroll-bar" stylesheets="@../resources/styles/mainStyle.css">
+        <ScrollPane fitToWidth="true" prefHeight="400.0" prefWidth="100.0" style="-fx-background-color: #1a237e; -fx-background-radius: 0 10 10 0;" styleClass="scroll-bar" stylesheets="@../resources/styles/mainStyle.css">
             <content>
                 <VBox alignment="TOP_CENTER" style="-fx-background-color: #1a237e;" BorderPane.alignment="CENTER">
                     <children>
-                        <Pane prefHeight="25.0" prefWidth="70.0" style="-fx-background-radius: 15 0 15 15;" />
-                        <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#menuItemSelected" prefHeight="66.0" prefWidth="70.0" styleClass="button5" stylesheets="@../resources/styles/mainStyle.css" text="Profile" textFill="WHITE">
+                        <Pane prefHeight="25.0" prefWidth="70.0" style="-fx-background-radius: 15 0 15 15; -fx-background-color: #1a237e;" />
+                        <Button fx:id="btnMenuDominio" contentDisplay="TOP" mnemonicParsing="false" onAction="#menuItemSelected" prefHeight="65.0" prefWidth="85.0" styleClass="button5" stylesheets="@../resources/styles/mainStyle.css" text="Dominio" textFill="WHITE">
                             <graphic>
                                 <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
@@ -22,11 +22,8 @@
                                     </image>
                                 </ImageView>
                             </graphic>
-                            <font>
-                                <Font size="14.0" />
-                            </font>
                         </Button>
-                        <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#menuItemSelected" prefHeight="66.0" prefWidth="70.0" styleClass="button5" stylesheets="@../resources/styles/mainStyle.css" text="Profile" textFill="WHITE">
+                        <Button fx:id="btnMenuMalla" contentDisplay="TOP" mnemonicParsing="false" onAction="#menuItemSelected" prefHeight="65.0" prefWidth="85.0" styleClass="button5" stylesheets="@../resources/styles/mainStyle.css" text="Malla" textFill="WHITE">
                             <graphic>
                                 <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
@@ -34,11 +31,8 @@
                                     </image>
                                 </ImageView>
                             </graphic>
-                            <font>
-                                <Font size="14.0" />
-                            </font>
                         </Button>
-                        <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#menuItemSelected" prefHeight="66.0" prefWidth="70.0" styleClass="button5" stylesheets="@../resources/styles/mainStyle.css" text="Profile" textFill="WHITE">
+                        <Button fx:id="btnMenuCondiciones" contentDisplay="TOP" mnemonicParsing="false" onAction="#menuItemSelected" prefHeight="65.0" prefWidth="85.0" styleClass="button5" stylesheets="@../resources/styles/mainStyle.css" text="Condiciones" textFill="WHITE">
                             <graphic>
                                 <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
@@ -46,11 +40,8 @@
                                     </image>
                                 </ImageView>
                             </graphic>
-                            <font>
-                                <Font size="14.0" />
-                            </font>
                         </Button>
-                        <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#menuItemSelected" prefHeight="66.0" prefWidth="70.0" styleClass="button5" stylesheets="@../resources/styles/mainStyle.css" text="Profile" textFill="WHITE">
+                        <Button fx:id="btnMenuTabla" alignment="CENTER" contentDisplay="TOP" mnemonicParsing="false" onAction="#menuItemSelected" prefHeight="65.0" prefWidth="85.0" styleClass="button5" stylesheets="@../resources/styles/mainStyle.css" text="Tabla" textFill="WHITE">
                             <graphic>
                                 <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
@@ -58,11 +49,8 @@
                                     </image>
                                 </ImageView>
                             </graphic>
-                            <font>
-                                <Font size="14.0" />
-                            </font>
                         </Button>
-                        <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#menuItemSelected" prefHeight="66.0" prefWidth="70.0" styleClass="button5" stylesheets="@../resources/styles/mainStyle.css" text="Profile" textFill="WHITE">
+                        <Button fx:id="btnMenuModelo" contentDisplay="TOP" mnemonicParsing="false" onAction="#menuItemSelected" prefHeight="65.0" prefWidth="85.0" styleClass="button5" stylesheets="@../resources/styles/mainStyle.css" text="Modelo" textFill="WHITE">
                             <graphic>
                                 <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
@@ -70,11 +58,8 @@
                                     </image>
                                 </ImageView>
                             </graphic>
-                            <font>
-                                <Font size="14.0" />
-                            </font>
                         </Button>
-                        <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#menuItemSelected" prefHeight="66.0" prefWidth="70.0" styleClass="button5" stylesheets="@../resources/styles/mainStyle.css" text="Profile" textFill="WHITE">
+                        <Button fx:id="btnMenuPaso1" contentDisplay="TOP" mnemonicParsing="false" onAction="#menuItemSelected" prefHeight="65.0" prefWidth="85.0" styleClass="button5" stylesheets="@../resources/styles/mainStyle.css" text="Paso 1" textFill="WHITE">
                             <graphic>
                                 <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
@@ -82,11 +67,8 @@
                                     </image>
                                 </ImageView>
                             </graphic>
-                            <font>
-                                <Font size="14.0" />
-                            </font>
                         </Button>
-                        <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#menuItemSelected" prefHeight="66.0" prefWidth="70.0" styleClass="button5" stylesheets="@../resources/styles/mainStyle.css" text="Profile" textFill="WHITE">
+                        <Button fx:id="btnMenuPaso2" contentDisplay="TOP" mnemonicParsing="false" onAction="#menuItemSelected" prefHeight="65.0" prefWidth="85.0" styleClass="button5" stylesheets="@../resources/styles/mainStyle.css" text="Paso 2" textFill="WHITE">
                             <graphic>
                                 <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
@@ -94,11 +76,8 @@
                                     </image>
                                 </ImageView>
                             </graphic>
-                            <font>
-                                <Font size="14.0" />
-                            </font>
                         </Button>
-                        <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#menuItemSelected" prefHeight="66.0" prefWidth="70.0" styleClass="button5" stylesheets="@../resources/styles/mainStyle.css" text="Profile" textFill="WHITE">
+                        <Button fx:id="btnMenuPaso3" contentDisplay="TOP" mnemonicParsing="false" onAction="#menuItemSelected" prefHeight="65.0" prefWidth="85.0" styleClass="button5" stylesheets="@../resources/styles/mainStyle.css" text="Paso 3" textFill="WHITE">
                             <graphic>
                                 <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
@@ -106,11 +85,8 @@
                                     </image>
                                 </ImageView>
                             </graphic>
-                            <font>
-                                <Font size="14.0" />
-                            </font>
                         </Button>
-                        <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#menuItemSelected" prefHeight="66.0" prefWidth="70.0" styleClass="button5" stylesheets="@../resources/styles/mainStyle.css" text="Profile" textFill="WHITE">
+                        <Button fx:id="btnMenuPaso4" contentDisplay="TOP" mnemonicParsing="false" onAction="#menuItemSelected" prefHeight="65.0" prefWidth="85.0" styleClass="button5" stylesheets="@../resources/styles/mainStyle.css" text="Paso 4" textFill="WHITE">
                             <graphic>
                                 <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
@@ -118,11 +94,8 @@
                                     </image>
                                 </ImageView>
                             </graphic>
-                            <font>
-                                <Font size="14.0" />
-                            </font>
                         </Button>
-                        <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#menuItemSelected" prefHeight="66.0" prefWidth="70.0" styleClass="button5" stylesheets="@../resources/styles/mainStyle.css" text="Profile" textFill="WHITE">
+                        <Button fx:id="btnMenuPaso5" contentDisplay="TOP" mnemonicParsing="false" onAction="#menuItemSelected" prefHeight="65.0" prefWidth="85.0" styleClass="button5" stylesheets="@../resources/styles/mainStyle.css" text="Paso 5" textFill="WHITE">
                             <graphic>
                                 <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
@@ -130,11 +103,8 @@
                                     </image>
                                 </ImageView>
                             </graphic>
-                            <font>
-                                <Font size="14.0" />
-                            </font>
                         </Button>
-                        <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#menuItemSelected" prefHeight="66.0" prefWidth="70.0" styleClass="button5" stylesheets="@../resources/styles/mainStyle.css" text="Profile" textFill="WHITE">
+                        <Button fx:id="btnMenuPaso6" contentDisplay="TOP" mnemonicParsing="false" onAction="#menuItemSelected" prefHeight="65.0" prefWidth="85.0" styleClass="button5" stylesheets="@../resources/styles/mainStyle.css" text="Paso 6" textFill="WHITE">
                             <graphic>
                                 <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
@@ -142,11 +112,8 @@
                                     </image>
                                 </ImageView>
                             </graphic>
-                            <font>
-                                <Font size="14.0" />
-                            </font>
                         </Button>
-                        <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#menuItemSelected" prefHeight="66.0" prefWidth="70.0" styleClass="button5" stylesheets="@../resources/styles/mainStyle.css" text="Profile" textFill="WHITE">
+                        <Button fx:id="btnMenuMatrices" contentDisplay="TOP" mnemonicParsing="false" onAction="#menuItemSelected" prefHeight="65.0" prefWidth="85.0" styleClass="button5" stylesheets="@../resources/styles/mainStyle.css" text="Matrices" textFill="WHITE">
                             <graphic>
                                 <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
@@ -154,11 +121,8 @@
                                     </image>
                                 </ImageView>
                             </graphic>
-                            <font>
-                                <Font size="14.0" />
-                            </font>
                         </Button>
-                        <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#menuItemSelected" prefHeight="66.0" prefWidth="70.0" styleClass="button5" stylesheets="@../resources/styles/mainStyle.css" text="Profile" textFill="WHITE">
+                        <Button fx:id="btnMenuEnsamblaje" contentDisplay="TOP" mnemonicParsing="false" onAction="#menuItemSelected" prefHeight="65.0" prefWidth="85.0" styleClass="button5" stylesheets="@../resources/styles/mainStyle.css" text="Ensamblaje" textFill="WHITE">
                             <graphic>
                                 <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
@@ -166,11 +130,8 @@
                                     </image>
                                 </ImageView>
                             </graphic>
-                            <font>
-                                <Font size="14.0" />
-                            </font>
                         </Button>
-                        <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#menuItemSelected" prefHeight="66.0" prefWidth="70.0" styleClass="button5" stylesheets="@../resources/styles/mainStyle.css" text="Profile" textFill="WHITE">
+                        <Button fx:id="btnMenuAplicacionConds" alignment="CENTER" contentDisplay="TOP" mnemonicParsing="false" onAction="#menuItemSelected" prefHeight="95.0" prefWidth="85.0" styleClass="button5" stylesheets="@../resources/styles/mainStyle.css" text="Aplicacion &#10;de&#10;condiciones" textAlignment="CENTER" textFill="WHITE">
                             <graphic>
                                 <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
@@ -178,9 +139,6 @@
                                     </image>
                                 </ImageView>
                             </graphic>
-                            <font>
-                                <Font size="14.0" />
-                            </font>
                         </Button>
                         <Pane prefHeight="25.0" prefWidth="70.0" style="-fx-background-radius: 15 0 15 15;" />
                     </children></VBox>
@@ -194,7 +152,7 @@
                     <children>
                         <HBox alignment="CENTER_LEFT" maxWidth="700.0" prefWidth="700.0">
                             <children>
-                                <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="91.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                <ImageView fx:id="ivLogoMEF" fitHeight="32.0" fitWidth="32.0" layoutX="91.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
                                         <Image url="@../resources/img/MEFmate-icon.png" />
                                     </image>
@@ -221,7 +179,7 @@
                             <children>
                                 <HBox alignment="CENTER" maxHeight="350.0" minWidth="350.0" prefHeight="60.0" prefWidth="350.0">
                                     <children>
-                                        <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="91.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                        <ImageView fx:id="ivActualStep" fitHeight="32.0" fitWidth="32.0" layoutX="91.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
                                             <image>
                                                 <Image url="@../resources/img/MEFmate-icon.png" />
                                             </image>
@@ -229,7 +187,7 @@
                                                 <Insets right="15.0" />
                                             </HBox.margin>
                                         </ImageView>
-                                        <Text fx:id="txtStep" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Step">
+                                        <Text fx:id="txtActualStep" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Step">
                                             <font>
                                                 <Font size="20.0" />
                                             </font></Text>
@@ -279,7 +237,7 @@
                <bottom>
                   <HBox alignment="CENTER_RIGHT" prefHeight="25.0" prefWidth="485.0" BorderPane.alignment="CENTER">
                      <children>
-                      <Button mnemonicParsing="false" styleClass="normal-button" stylesheets="@../resources/styles/mainStyle.css" text="Regresar" textFill="WHITE">
+                      <Button fx:id="btnBackSubStep" mnemonicParsing="false" styleClass="normal-button" stylesheets="@../resources/styles/mainStyle.css" text="Regresar" textFill="WHITE">
                            <font>
                               <Font size="15.0" />
                            </font>
@@ -287,7 +245,7 @@
                               <Insets right="15.0" />
                            </HBox.margin>
                         </Button>
-                        <Button maxHeight="90.0" minWidth="90.0" mnemonicParsing="false" prefWidth="90.0" styleClass="normal-button" stylesheets="@../resources/styles/mainStyle.css" text="Continuar" textFill="WHITE">
+                        <Button fx:id="btnNextSubStep" maxHeight="90.0" minWidth="90.0" mnemonicParsing="false" prefWidth="90.0" styleClass="normal-button" stylesheets="@../resources/styles/mainStyle.css" text="Continuar" textFill="WHITE">
                            <font>
                               <Font size="15.0" />
                            </font>

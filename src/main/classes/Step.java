@@ -1,27 +1,51 @@
 package main.classes;
 
+import javafx.scene.image.ImageView;
+
+import java.util.ArrayList;
+
 public class Step {
-    private int step;
-    private int subStep;
+    private int idStep;
+    private String name;
+    private ImageView stepIcon;
+    private ArrayList<SubStep> subSteps;
 
-    public Step(int step, int subStep) {
-        this.step = step;
-        this.subStep = subStep;
+    public Step(int idStep, String name, ImageView stepIcon, ArrayList<SubStep> subSteps) {
+        this.idStep = idStep;
+        this.name = name;
+        this.stepIcon = stepIcon;
+        this.subSteps = subSteps;
     }
 
-    public int getStep() {
-        return step;
+    public int getIdStep() {
+        return idStep;
     }
 
-    public void setStep(int step) {
-        this.step = step;
+    public void setIdStep(int idStep) {
+        this.idStep = idStep;
     }
 
-    public int getSubStep() {
-        return subStep;
+    public String getName() {
+        return name;
     }
 
-    public void setSubStep(int subStep) {
-        this.subStep = subStep;
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public ImageView getStepIcon() {
+        return stepIcon;
+    }
+
+    public void setStepIcon(ImageView stepIcon) {
+        this.stepIcon = stepIcon;
+    }
+
+    public ArrayList<SubStep> getSubSteps() {
+        return subSteps;
+    }
+
+    public void setSubSteps(ArrayList<SubStep> subSteps) {
+        this.subSteps = subSteps;
     }
 }
