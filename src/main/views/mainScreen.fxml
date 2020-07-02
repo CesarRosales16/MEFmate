@@ -14,7 +14,7 @@
                 <VBox alignment="TOP_CENTER" style="-fx-background-color: #1a237e;" BorderPane.alignment="CENTER">
                     <children>
                         <Pane prefHeight="25.0" prefWidth="70.0" style="-fx-background-radius: 15 0 15 15; -fx-background-color: #1a237e;" />
-                        <Button fx:id="btnMenuDominio" contentDisplay="TOP" mnemonicParsing="false" onAction="#menuItemSelected" prefHeight="65.0" prefWidth="85.0" styleClass="button5" stylesheets="@../resources/styles/mainStyle.css" text="Dominio" textFill="WHITE">
+                        <Button fx:id="btnMenuDominio" contentDisplay="TOP" mnemonicParsing="false" onAction="#menuItemSelected" prefHeight="65.0" prefWidth="85.0" styleClass="button5-selected" stylesheets="@../resources/styles/mainStyle.css" text="Dominio" textFill="WHITE">
                             <graphic>
                                 <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
@@ -179,7 +179,7 @@
                             <children>
                                 <HBox alignment="CENTER" maxHeight="350.0" minWidth="350.0" prefHeight="60.0" prefWidth="350.0">
                                     <children>
-                                        <ImageView fx:id="ivActualStep" fitHeight="32.0" fitWidth="32.0" layoutX="91.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                        <ImageView fx:id="ivActualScreen" fitHeight="32.0" fitWidth="32.0" layoutX="91.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
                                             <image>
                                                 <Image url="@../resources/img/MEFmate-icon.png" />
                                             </image>
@@ -187,7 +187,7 @@
                                                 <Insets right="15.0" />
                                             </HBox.margin>
                                         </ImageView>
-                                        <Text fx:id="txtActualStep" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Step">
+                                        <Text fx:id="txtActualScreenName" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Step">
                                             <font>
                                                 <Font size="20.0" />
                                             </font></Text>
@@ -204,7 +204,7 @@
                                 <String fx:value="button3" />
                                 <String fx:value="button-back-all" />
                             </styleClass></Button>
-                        <Button fx:id="btnFooterBack" alignment="CENTER" contentDisplay="CENTER" layoutX="257.0" layoutY="10.0" maxHeight="32.0" maxWidth="32.0" minHeight="32.0" minWidth="32.0" mnemonicParsing="false" onAction="#prevStep" prefHeight="32.0" prefWidth="32.0" stylesheets="@../resources/styles/mainStyle.css">
+                        <Button fx:id="btnFooterBack" alignment="CENTER" contentDisplay="CENTER" layoutX="257.0" layoutY="10.0" maxHeight="32.0" maxWidth="32.0" minHeight="32.0" minWidth="32.0" mnemonicParsing="false" onAction="#backScreen" prefHeight="32.0" prefWidth="32.0" stylesheets="@../resources/styles/mainStyle.css">
                             <HBox.margin>
                                 <Insets />
                             </HBox.margin>
@@ -217,7 +217,7 @@
                                 <String fx:value="button3" />
                                 <String fx:value="button-home" />
                             </styleClass></Button>
-                        <Button fx:id="btnFooterNext" layoutX="225.0" layoutY="10.0" maxHeight="32.0" maxWidth="32.0" minHeight="32.0" minWidth="32.0" mnemonicParsing="false" onAction="#nextStep" prefHeight="32.0" prefWidth="32.0" stylesheets="@../resources/styles/mainStyle.css">
+                        <Button fx:id="btnFooterNext" layoutX="225.0" layoutY="10.0" maxHeight="32.0" maxWidth="32.0" minHeight="32.0" minWidth="32.0" mnemonicParsing="false" onAction="#nextScreen" prefHeight="32.0" prefWidth="32.0" stylesheets="@../resources/styles/mainStyle.css">
                             <styleClass>
                                 <String fx:value="button3" />
                                 <String fx:value="button-next" />
@@ -237,7 +237,7 @@
                <bottom>
                   <HBox alignment="CENTER_RIGHT" prefHeight="25.0" prefWidth="485.0" BorderPane.alignment="CENTER">
                      <children>
-                      <Button fx:id="btnBackSubStep" mnemonicParsing="false" styleClass="normal-button" stylesheets="@../resources/styles/mainStyle.css" text="Regresar" textFill="WHITE">
+                      <Button fx:id="btnBackScreenPart" mnemonicParsing="false" styleClass="normal-button" stylesheets="@../resources/styles/mainStyle.css" text="Regresar" textFill="WHITE">
                            <font>
                               <Font size="15.0" />
                            </font>
@@ -245,7 +245,7 @@
                               <Insets right="15.0" />
                            </HBox.margin>
                         </Button>
-                        <Button fx:id="btnNextSubStep" maxHeight="90.0" minWidth="90.0" mnemonicParsing="false" prefWidth="90.0" styleClass="normal-button" stylesheets="@../resources/styles/mainStyle.css" text="Continuar" textFill="WHITE">
+                        <Button fx:id="btnNextScreenPart" maxHeight="90.0" minWidth="90.0" mnemonicParsing="false" prefWidth="90.0" styleClass="normal-button" stylesheets="@../resources/styles/mainStyle.css" text="Continuar" textFill="WHITE">
                            <font>
                               <Font size="15.0" />
                            </font>
