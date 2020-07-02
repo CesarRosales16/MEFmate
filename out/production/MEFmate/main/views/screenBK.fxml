@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #131022;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+    <left>
+        <VBox alignment="TOP_CENTER" style="-fx-background-color: #1a237e; -fx-background-radius: 0 10 10 0;" BorderPane.alignment="CENTER">
+            <children>
+                <Pane prefHeight="25.0" prefWidth="70.0" style="-fx-background-radius: 15 0 15 15;" />
+                <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="66.0" prefWidth="70.0" styleClass="button5" stylesheets="@../resources/styles/mainStyle.css" text="Profile" textFill="WHITE">
+                    <graphic>
+                        <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../resources/img/MEFmate-icon.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Button>
+                <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="66.0" prefWidth="70.0" styleClass="button5" stylesheets="@../resources/styles/mainStyle.css" text="Profile" textFill="WHITE">
+                    <graphic>
+                        <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../resources/img/MEFmate-icon.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Button>
+                <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="66.0" prefWidth="70.0" styleClass="button5" stylesheets="@../resources/styles/mainStyle.css" text="Profile" textFill="WHITE">
+                    <graphic>
+                        <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../resources/img/MEFmate-icon.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Button>
+                <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="66.0" prefWidth="70.0" styleClass="button5" stylesheets="@../resources/styles/mainStyle.css" text="Profile" textFill="WHITE">
+                    <graphic>
+                        <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../resources/img/MEFmate-icon.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Button>
+                <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="66.0" prefWidth="70.0" styleClass="button5" stylesheets="@../resources/styles/mainStyle.css" text="Profile" textFill="WHITE">
+                    <graphic>
+                        <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../resources/img/MEFmate-icon.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Button>
+            </children></VBox>
+    </left>
+    <center>
+        <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <top>
+                <HBox alignment="CENTER_RIGHT" BorderPane.alignment="CENTER">
+                    <children>
+                        <HBox alignment="CENTER_LEFT" maxWidth="1000.0" prefWidth="800.0">
+                            <children>
+                                <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="91.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../resources/img/MEFmate-icon.png" />
+                                    </image>
+                                </ImageView>
+                                <Text fill="#fff600" strokeType="OUTSIDE" strokeWidth="0.0" text="MEF">
+                                    <font>
+                                        <Font name="System Bold" size="26.0" />
+                                    </font>
+                                    <HBox.margin>
+                                        <Insets left="10.0" />
+                                    </HBox.margin>
+                                </Text>
+                                <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="mate">
+                                    <font>
+                                        <Font size="24.0" />
+                                    </font>
+                                </Text>
+                            </children>
+                            <HBox.margin>
+                                <Insets left="25.0" />
+                            </HBox.margin>
+                        </HBox>
+                        <Pane prefHeight="60.0" prefWidth="300.0" style="-fx-background-radius: 20 0 20 0;" styleClass="linear-grad" stylesheets="@../resources/styles/mainStyle.css">
+                            <children>
+                                <HBox alignment="CENTER" prefHeight="60.0" prefWidth="300.0">
+                                    <children>
+                                        <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="91.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../resources/img/MEFmate-icon.png" />
+                                            </image>
+                                            <HBox.margin>
+                                                <Insets right="15.0" />
+                                            </HBox.margin>
+                                        </ImageView>
+                                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Step">
+                                            <font>
+                                                <Font size="20.0" />
+                                            </font></Text>
+                                    </children>
+                                </HBox>
+                            </children></Pane>
+                    </children></HBox>
+            </top>
+            <bottom>
+                <HBox alignment="CENTER" BorderPane.alignment="CENTER">
+                    <children>
+                        <Button maxHeight="32.0" maxWidth="32.0" minHeight="32.0" minWidth="32.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="32.0" stylesheets="@../resources/styles/mainStyle.css">
+                            <styleClass>
+                                <String fx:value="button3" />
+                                <String fx:value="button-back-all" />
+                            </styleClass></Button>
+                        <Button alignment="CENTER" contentDisplay="CENTER" layoutX="257.0" layoutY="10.0" maxHeight="32.0" maxWidth="32.0" minHeight="32.0" minWidth="32.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="32.0" stylesheets="@../resources/styles/mainStyle.css">
+                            <HBox.margin>
+                                <Insets />
+                            </HBox.margin>
+                            <styleClass>
+                                <String fx:value="button3" />
+                                <String fx:value="button-back" />
+                            </styleClass></Button>
+                        <Button layoutX="273.0" layoutY="10.0" maxHeight="32.0" maxWidth="32.0" minHeight="32.0" minWidth="32.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="32.0" stylesheets="@../resources/styles/mainStyle.css">
+                            <styleClass>
+                                <String fx:value="button3" />
+                                <String fx:value="button-home" />
+                            </styleClass></Button>
+                        <Button layoutX="225.0" layoutY="10.0" maxHeight="32.0" maxWidth="32.0" minHeight="32.0" minWidth="32.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="32.0" stylesheets="@../resources/styles/mainStyle.css">
+                            <styleClass>
+                                <String fx:value="button3" />
+                                <String fx:value="button-next" />
+                            </styleClass></Button>
+                        <Button layoutX="273.0" layoutY="10.0" maxHeight="32.0" maxWidth="32.0" minHeight="32.0" minWidth="32.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="32.0" stylesheets="@../resources/styles/mainStyle.css">
+                            <styleClass>
+                                <String fx:value="button3" />
+                                <String fx:value="button-next-all" />
+                            </styleClass></Button>
+                    </children></HBox>
+            </bottom>
+            <center>
+                <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 10;" BorderPane.alignment="CENTER">
+                    <BorderPane.margin>
+                        <Insets left="15.0" right="15.0" />
+                    </BorderPane.margin>
+                    <children>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                            <children>
+                                <Text fx:id="txtStepNumber" fill="RED" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+                                    <font>
+                                        <Font size="24.0" />
+                                    </font>
+                                </Text>
+                                <Text fx:id="txtStepPartNumber" fill="#ff6600" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+                                    <font>
+                                        <Font size="24.0" />
+                                    </font>
+                                </Text>
+                                <VBox prefHeight="200.0">
+                                    <children>
+                                        <ButtonBar prefHeight="40.0" prefWidth="200.0">
+                                            <buttons>
+                                                <Button mnemonicParsing="false" text="Button" />
+                                            </buttons>
+                                        </ButtonBar>
+                                    </children>
+                                </VBox>
+                            </children>
+                        </VBox>
+                    </children></HBox>
+            </center></BorderPane>
+    </center>
+</BorderPane>
