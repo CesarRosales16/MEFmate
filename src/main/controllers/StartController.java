@@ -25,7 +25,7 @@ public class StartController implements Initializable {
     @FXML
     public void showInstructions (ActionEvent event) throws Exception {
         Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-        Parent root = FXMLLoader.load(getClass().getResource("../views/instructions.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/main/views/instructions.fxml"));
         Scene scene = new Scene(root, Constans.getWIDTH(), Constans.getHEIGHT());
         stage.setScene(scene);
     }
@@ -33,7 +33,7 @@ public class StartController implements Initializable {
     @FXML
     public void iniciar(ActionEvent event) throws Exception {
         Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-        Parent root = FXMLLoader.load(getClass().getResource("../views/mainScreen.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/main/views/mainScreen.fxml"));
         Scene scene = new Scene(root, Constans.getWIDTH(), Constans.getHEIGHT());
         stage.setScene(scene);
     }

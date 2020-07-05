@@ -22,7 +22,7 @@ public class FinishController implements Initializable {
     @FXML
     public void backHome(ActionEvent event) throws Exception{
         Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-        Parent root = FXMLLoader.load(getClass().getResource("../views/start.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/main/views/start.fxml"));
         Scene scene = new Scene(root, Constans.getWIDTH(), Constans.getHEIGHT());
         stage.setScene(scene);
     }

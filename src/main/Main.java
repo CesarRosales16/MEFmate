@@ -16,7 +16,7 @@ public class Main extends Application {
         primaryStage.setTitle("MEFmate");
         Scene scene = new Scene(root, Constans.getWIDTH(), Constans.getHEIGHT());
         primaryStage.setScene(scene);
-        primaryStage.getIcons().add(new Image("main/resources/img/MEFmate-icon.png"));
+        primaryStage.getIcons().add(new Image("main/resources/img/icons/MEFmate-icon.png"));
         primaryStage.setResizable(false);
         primaryStage.show();
     }

@@ -18,12 +18,12 @@
                             <children>
                                 <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="91.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
-                                        <Image url="@../resources/img/MEFmate-icon.png" />
+                                        <Image url="@../resources/img/icons/MEFmate-icon.png" />
                                     </image>
                                 </ImageView>
                                 <Text fill="#fff600" strokeType="OUTSIDE" strokeWidth="0.0" text="MEF">
                                     <font>
-                                        <Font name="System Bold" size="26.0" />
+                                        <Font name="System Bold" size="20.0" />
                                     </font>
                                     <HBox.margin>
                                         <Insets left="10.0" />
@@ -31,7 +31,7 @@
                                 </Text>
                                 <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="mate">
                                     <font>
-                                        <Font size="24.0" />
+                                        <Font size="14.0" />
                                     </font>
                                 </Text>
                             </children>
@@ -45,7 +45,7 @@
                                     <children>
                                         <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="91.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
                                             <image>
-                                                <Image url="@../resources/img/instructions.png" />
+                                                <Image url="@../resources/img/icons/instructions.png" />
                                             </image>
                                             <HBox.margin>
                                                 <Insets right="15.0" />
@@ -76,7 +76,7 @@
                                 <String fx:value="button3" />
                                 <String fx:value="button-back" />
                             </styleClass></Button>
-                        <Button fx:id="btnFooterHome" layoutX="273.0" layoutY="10.0" maxHeight="32.0" maxWidth="32.0" minHeight="32.0" minWidth="32.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="32.0" stylesheets="@../resources/styles/mainStyle.css">
+                        <Button fx:id="btnFooterHome" layoutX="273.0" layoutY="10.0" maxHeight="32.0" maxWidth="32.0" minHeight="32.0" minWidth="32.0" mnemonicParsing="false" onAction="#goHome" prefHeight="32.0" prefWidth="32.0" stylesheets="@../resources/styles/mainStyle.css">
                             <styleClass>
                                 <String fx:value="button3" />
                                 <String fx:value="button-home" />
@@ -101,47 +101,14 @@
                     <children>
                         <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
                             <children>
-                                <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
-                                    <children>
-                                        <Text fill="#fff600" strokeType="OUTSIDE" strokeWidth="0.0" text="MEF">
-                                            <font>
-                                                <Font name="System Bold" size="50.0" />
-                                            </font>
-                                        </Text>
-                                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="mate">
-                                            <font>
-                                                <Font size="40.0" />
-                                            </font>
-                                        </Text>
-                                    </children>
-                                </HBox>
-                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="¡Bienvenido a MEFmate!">
-                                    <font>
-                                        <Font size="25.0" />
-                                    </font>
-                                    <VBox.margin>
-                                        <Insets bottom="15.0" />
-                                    </VBox.margin>
-                                </Text>
-                                <Text lineSpacing="2.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MEFmate es el software número uno en el mercado para aprender sobre el Método de los Elementos Finitos en 3D dimensiones." textAlignment="CENTER" wrappingWidth="600.0">
-                                    <font>
-                                        <Font size="20.0" />
-                                    </font>
-                                    <VBox.margin>
-                                        <Insets bottom="10.0" />
-                                    </VBox.margin>
-                                </Text>
-                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Unete a nosotros y deja MEFmate te acompañe en esta gran aventura ¡Vamos a ello!" textAlignment="CENTER" wrappingWidth="600.0">
-                                    <font>
-                                        <Font size="20.0" />
-                                    </font>
-                                    <VBox.margin>
-                                        <Insets bottom="15.0" />
-                                    </VBox.margin>
-                                </Text>
+
                             </children>
                             <VBox alignment="CENTER" maxHeight="150.0" minHeight="150.0" prefHeight="150.0">
                                 <children>
+                           <ImageView fitHeight="300.0" fitWidth="500.0" pickOnBounds="true" preserveRatio="true">
+                              <image>
+                                 <Image url="@../resources/img/screens/howToUse.png" />
+                              </image></ImageView>
                                     <Button fx:id="btnIniciar" mnemonicParsing="false" onAction="#iniciar" styleClass="button-init" stylesheets="@../resources/styles/mainStyle.css" text="Iniciar" textFill="WHITE">
                                         <font>
                                             <Font size="20.0" />

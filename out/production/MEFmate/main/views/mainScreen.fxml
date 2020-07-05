@@ -18,7 +18,7 @@
                             <graphic>
                                 <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
-                                        <Image url="@../resources/img/MEFmate-icon.png" />
+                                        <Image url="@../resources/img/icons/MEFmate-icon.png" />
                                     </image>
                                 </ImageView>
                             </graphic>
@@ -27,7 +27,7 @@
                             <graphic>
                                 <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
-                                        <Image url="@../resources/img/MEFmate-icon.png" />
+                                        <Image url="@../resources/img/icons/MEFmate-icon.png" />
                                     </image>
                                 </ImageView>
                             </graphic>
@@ -36,7 +36,7 @@
                             <graphic>
                                 <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
-                                        <Image url="@../resources/img/MEFmate-icon.png" />
+                                        <Image url="@../resources/img/icons/MEFmate-icon.png" />
                                     </image>
                                 </ImageView>
                             </graphic>
@@ -45,7 +45,7 @@
                             <graphic>
                                 <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
-                                        <Image url="@../resources/img/MEFmate-icon.png" />
+                                        <Image url="@../resources/img/icons/MEFmate-icon.png" />
                                     </image>
                                 </ImageView>
                             </graphic>
@@ -54,7 +54,7 @@
                             <graphic>
                                 <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
-                                        <Image url="@../resources/img/MEFmate-icon.png" />
+                                        <Image url="@../resources/img/icons/MEFmate-icon.png" />
                                     </image>
                                 </ImageView>
                             </graphic>
@@ -63,7 +63,7 @@
                             <graphic>
                                 <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
-                                        <Image url="@../resources/img/MEFmate-icon.png" />
+                                        <Image url="@../resources/img/icons/MEFmate-icon.png" />
                                     </image>
                                 </ImageView>
                             </graphic>
@@ -72,7 +72,7 @@
                             <graphic>
                                 <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
-                                        <Image url="@../resources/img/MEFmate-icon.png" />
+                                        <Image url="@../resources/img/icons/MEFmate-icon.png" />
                                     </image>
                                 </ImageView>
                             </graphic>
@@ -81,7 +81,7 @@
                             <graphic>
                                 <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
-                                        <Image url="@../resources/img/MEFmate-icon.png" />
+                                        <Image url="@../resources/img/icons/MEFmate-icon.png" />
                                     </image>
                                 </ImageView>
                             </graphic>
@@ -90,7 +90,7 @@
                             <graphic>
                                 <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
-                                        <Image url="@../resources/img/MEFmate-icon.png" />
+                                        <Image url="@../resources/img/icons/MEFmate-icon.png" />
                                     </image>
                                 </ImageView>
                             </graphic>
@@ -99,7 +99,7 @@
                             <graphic>
                                 <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
-                                        <Image url="@../resources/img/MEFmate-icon.png" />
+                                        <Image url="@../resources/img/icons/MEFmate-icon.png" />
                                     </image>
                                 </ImageView>
                             </graphic>
@@ -108,7 +108,7 @@
                             <graphic>
                                 <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
-                                        <Image url="@../resources/img/MEFmate-icon.png" />
+                                        <Image url="@../resources/img/icons/MEFmate-icon.png" />
                                     </image>
                                 </ImageView>
                             </graphic>
@@ -117,7 +117,7 @@
                             <graphic>
                                 <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
-                                        <Image url="@../resources/img/MEFmate-icon.png" />
+                                        <Image url="@../resources/img/icons/MEFmate-icon.png" />
                                     </image>
                                 </ImageView>
                             </graphic>
@@ -126,7 +126,7 @@
                             <graphic>
                                 <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
-                                        <Image url="@../resources/img/MEFmate-icon.png" />
+                                        <Image url="@../resources/img/icons/MEFmate-icon.png" />
                                     </image>
                                 </ImageView>
                             </graphic>
@@ -135,7 +135,7 @@
                             <graphic>
                                 <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
-                                        <Image url="@../resources/img/MEFmate-icon.png" />
+                                        <Image url="@../resources/img/icons/MEFmate-icon.png" />
                                     </image>
                                 </ImageView>
                             </graphic>
@@ -154,7 +154,7 @@
                             <children>
                                 <ImageView fx:id="ivLogoMEF" fitHeight="32.0" fitWidth="32.0" layoutX="91.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
-                                        <Image url="@../resources/img/MEFmate-icon.png" />
+                                        <Image url="@../resources/img/icons/MEFmate-icon.png" />
                                     </image>
                                 </ImageView>
                                 <Text fill="#fff600" strokeType="OUTSIDE" strokeWidth="0.0" text="MEF">
@@ -181,7 +181,7 @@
                                     <children>
                                         <ImageView fx:id="ivActualScreen" fitHeight="32.0" fitWidth="32.0" layoutX="91.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
                                             <image>
-                                                <Image url="@../resources/img/MEFmate-icon.png" />
+                                                <Image url="@../resources/img/icons/MEFmate-icon.png" />
                                             </image>
                                             <HBox.margin>
                                                 <Insets right="15.0" />
@@ -232,12 +232,15 @@
          <center>
             <BorderPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 10;" BorderPane.alignment="CENTER">
                <center>
-                  <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+                  <HBox alignment="CENTER" maxHeight="300.0" maxWidth="500.0" prefHeight="300.0" prefWidth="500.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <VBox fx:id="canvas" alignment="CENTER" maxHeight="250.0" maxWidth="500.0" minHeight="250.0" minWidth="500.0" prefHeight="250.0" prefWidth="500.0" />
+                     </children></HBox>
                </center>
                <bottom>
                   <HBox alignment="CENTER_RIGHT" prefHeight="25.0" prefWidth="485.0" BorderPane.alignment="CENTER">
                      <children>
-                      <Button fx:id="btnBackScreenPart" mnemonicParsing="false" styleClass="normal-button" stylesheets="@../resources/styles/mainStyle.css" text="Regresar" textFill="WHITE">
+                      <Button fx:id="btnBackScreenPart" mnemonicParsing="false" onAction="#prevPart" styleClass="normal-button" stylesheets="@../resources/styles/mainStyle.css" text="Regresar" textFill="WHITE">
                            <font>
                               <Font size="15.0" />
                            </font>
@@ -245,7 +248,7 @@
                               <Insets right="15.0" />
                            </HBox.margin>
                         </Button>
-                        <Button fx:id="btnNextScreenPart" maxHeight="90.0" minWidth="90.0" mnemonicParsing="false" prefWidth="90.0" styleClass="normal-button" stylesheets="@../resources/styles/mainStyle.css" text="Continuar" textFill="WHITE">
+                        <Button fx:id="btnNextScreenPart" maxHeight="90.0" minWidth="90.0" mnemonicParsing="false" onAction="#nextPart" prefWidth="90.0" styleClass="normal-button" stylesheets="@../resources/styles/mainStyle.css" text="Continuar" textFill="WHITE">
                            <font>
                               <Font size="15.0" />
                            </font>

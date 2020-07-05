@@ -18,7 +18,7 @@
                             <children>
                                 <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="91.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
-                                        <Image url="@../resources/img/MEFmate-icon.png" />
+                                        <Image url="@../resources/img/icons/MEFmate-icon.png" />
                                     </image>
                                 </ImageView>
                                 <Text fill="#fff600" strokeType="OUTSIDE" strokeWidth="0.0" text="MEF">
@@ -45,7 +45,7 @@
                                     <children>
                                         <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="91.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
                                             <image>
-                                                <Image url="@../resources/img/start.png" />
+                                                <Image url="@../resources/img/icons/start.png" />
                                             </image>
                                             <HBox.margin>
                                                 <Insets right="15.0" />

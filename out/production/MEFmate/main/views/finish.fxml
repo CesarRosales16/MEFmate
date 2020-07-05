@@ -17,7 +17,7 @@
                             <children>
                                 <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="91.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
-                                        <Image url="@../resources/img/MEFmate-icon.png" />
+                                        <Image url="@../resources/img/icons/MEFmate-icon.png" />
                                     </image>
                                 </ImageView>
                                 <Text fill="#fff600" strokeType="OUTSIDE" strokeWidth="0.0" text="MEF">
@@ -44,7 +44,7 @@
                                     <children>
                                         <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="91.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
                                             <image>
-                                                <Image url="@../resources/img/start.png" />
+                                                <Image url="@../resources/img/icons/start.png" />
                                             </image>
                                             <HBox.margin>
                                                 <Insets right="15.0" />
@@ -114,7 +114,7 @@
                                         </Text>
                                     </children>
                                 </HBox>
-                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="¡Bienvenido a MEFmate!">
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="¡Lo has logrado!">
                                     <font>
                                         <Font size="25.0" />
                                     </font>
@@ -122,7 +122,7 @@
                                         <Insets bottom="15.0" />
                                     </VBox.margin>
                                 </Text>
-                                <Text lineSpacing="2.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MEFmate es el software número uno en el mercado para aprender sobre el Método de los Elementos Finitos en 3D dimensiones." textAlignment="CENTER" wrappingWidth="800.0">
+                                <Text lineSpacing="2.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¡Bien Hecho! Si llegaste hasta acá ya puedes aplicar el MEF a cualquier problema" textAlignment="CENTER" wrappingWidth="800.0">
                                     <font>
                                         <Font size="20.0" />
                                     </font>
@@ -130,7 +130,7 @@
                                         <Insets bottom="10.0" />
                                     </VBox.margin>
                                 </Text>
-                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Unete a nosotros y deja MEFmate te acompañe en esta gran aventura ¡Vamos a ello!" textAlignment="CENTER" wrappingWidth="800.0">
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="l equipo de MEFmate te desea un feliz dia ¡No olvides lavarte las manos!" textAlignment="CENTER" wrappingWidth="800.0">
                                     <font>
                                         <Font size="20.0" />
                                     </font>

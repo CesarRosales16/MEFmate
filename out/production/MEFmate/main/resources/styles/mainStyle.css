@@ -126,31 +126,31 @@
 }
 
 .button-back-all {
-    -fx-background-image: url("/main/resources/img/back-all.png");
+    -fx-background-image: url("/main/resources/img/icons/back-all.png");
     -fx-background-repeat: no-repeat;
     -fx-background-position: center;
 }
 
 .button-back {
-    -fx-background-image: url("/main/resources/img/back24.png");
+    -fx-background-image: url("/main/resources/img/icons/back24.png");
     -fx-background-repeat: no-repeat;
     -fx-background-position: center;
 }
 
 .button-home {
-    -fx-background-image: url("/main/resources/img/home24.png");
+    -fx-background-image: url("/main/resources/img/icons/home24.png");
     -fx-background-repeat: no-repeat;
     -fx-background-position: center;
 }
 
 .button-next {
-    -fx-background-image: url("/main/resources/img/next24.png");
+    -fx-background-image: url("/main/resources/img/icons/next24.png");
     -fx-background-repeat: no-repeat;
     -fx-background-position: center;
 }
 
 .button-next-all {
-    -fx-background-image: url("/main/resources/img/next-all.png");
+    -fx-background-image: url("/main/resources/img/icons/next-all.png");
     -fx-background-repeat: no-repeat;
     -fx-background-position: center;
 }
