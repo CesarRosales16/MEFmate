@@ -126,7 +126,7 @@ public class MainScreenController implements Initializable {
             Scene scene = new Scene(root, Constans.getWIDTH(), Constans.getHEIGHT());
             stage.setScene(scene);
         }
-        if (actualScreen < screens.size()-1) {
+        if (actualScreen <= screens.size()-1) {
             actualScreenPart = 0;
             setupViewComponents();
         }
